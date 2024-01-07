@@ -1,0 +1,90 @@
+/*colors*/
+/*font*/
+/*button-style*/
+h2 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 28px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-style: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  margin-bottom: 85px;
+  text-align: left;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 992px) {
+  p {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  p {
+    margin-bottom: 15px;
+  }
+}
+.first-column {
+  background-color: hsl(31, 77%, 52%);
+}
+.first-column .btn-outline-custom {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  border-color: hsl(0, 0%, 95%);
+  border-radius: 100px;
+  padding: 10px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-style: "Lexend Deca", sans-serif;
+}
+.first-column .btn-outline-custom:hover {
+  background-color: transparent;
+  border-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+
+.second-column {
+  background-color: hsl(184, 100%, 22%);
+}
+.second-column .btn-outline-custom {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  border-color: hsl(0, 0%, 95%);
+  border-radius: 100px;
+  padding: 10px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-style: "Lexend Deca", sans-serif;
+}
+.second-column .btn-outline-custom:hover {
+  background-color: transparent;
+  border-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+
+.third-column {
+  background-color: hsl(179, 100%, 13%);
+}
+.third-column .btn-outline-custom {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  border-color: hsl(0, 0%, 95%);
+  border-radius: 100px;
+  padding: 10px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-style: "Lexend Deca", sans-serif;
+}
+.third-column .btn-outline-custom:hover {
+  background-color: transparent;
+  border-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}/*# sourceMappingURL=main.css.map */
