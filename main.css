@@ -1,6 +1,17 @@
 /*colors*/
 /*font*/
 /*button-style*/
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 10px 10px;
+}
+
 h2 {
   color: hsl(0, 0%, 95%);
   font-family: "Big Shoulders Display", sans-serif;
@@ -31,6 +42,8 @@ p {
 }
 .first-column {
   background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+  overflow: hidden;
 }
 .first-column .btn-outline-custom {
   background-color: hsl(0, 0%, 95%);
@@ -71,6 +84,8 @@ p {
 
 .third-column {
   background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+  overflow: hidden;
 }
 .third-column .btn-outline-custom {
   background-color: hsl(0, 0%, 95%);
@@ -87,4 +102,29 @@ p {
   background-color: transparent;
   border-color: hsl(0, 0%, 95%);
   color: hsl(0, 0%, 95%);
+}
+
+@media screen and (max-width: 425px) {
+  .third-column {
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 600px) {
+  .third-column {
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 425px) {
+  .first-column {
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 600px) {
+  .first-column {
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+  }
 }/*# sourceMappingURL=main.css.map */
